@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+        <form class="caixa-de-sugestoes"> 
+            <h2>Caixa de sugestões</h2>
+            <input id="input-item" type="text" placeholder="Escreva sua sugestão" >
+
+            <div class="container-checkbox">
+                    <input type="checkbox" class="input-checkbox" id="checkbox" />
+                    <p>Testando</p>
+            </div>
+            <button id="adicionar-botao" type="submit" >Enviar</button>
+        </form>
+
+        <div class="lista-container">
+            <h2>Sugestões</h2>
+            <hr>
+            <ul id="lista-sugestoes">
+                <p id="mensagem-inicial" style="display:block">
+                    Você ainda não tem nenhuma sugestão. Crie uma para inserir aqui! 😊
+                </p>
+
+            </ul>
+        </div>
+        
+</body>
+<script src="app.js"></script>
+
+</html>
